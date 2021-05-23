@@ -18,7 +18,8 @@ const ReactFacebookLogin = () => {
       autoLoad={false}
       fields="name,email,picture"
       onClick= {componentClicked}
-      callback={responseFacebook} 
+      callback={responseFacebook}
+      textButton="Login com Facebook"
       />
       <h1>{name}</h1>
     </div>
