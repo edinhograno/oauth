@@ -14,7 +14,7 @@ const ReactFacebookLogin = () => {
   return (
     <div>
       <FacebookLogin
-      appId="key facebook"
+      appId="PROF COLOQUE SEU APPID DO FACEBOOK AQUI, NÃO DEIXEI O EU POIS NO GIT ELE FICA PUBLICO"
       autoLoad={false}
       fields="name,email,picture"
       onClick= {componentClicked}
