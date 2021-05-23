@@ -14,7 +14,7 @@ const ReactFacebookLogin = () => {
   return (
     <div>
       <FacebookLogin
-      appId="2885095021752866"
+      appId="key facebook"
       autoLoad={false}
       fields="name,email,picture"
       onClick= {componentClicked}
